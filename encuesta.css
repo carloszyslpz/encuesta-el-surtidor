@@ -1,0 +1,284 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+}
+header img {
+  width: 350px;
+  height: 95px;
+  margin: 10px;
+  position: static;
+}
+main {
+  background: #e9e8ea 0% 0% no-repeat padding-box;
+}
+.main-queremos {
+  display: flex;
+  justify-content: center;
+}
+main img {
+  width: 500px;
+  height: 110px;
+  margin: 40px 40px 50px 40px;
+  position: static;
+}
+.main-ayudanos {
+  display: flex;
+  justify-content: center;
+  position: static;
+}
+.main-ayudanos p {
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #111212;
+  opacity: 1;
+}
+.main-btn {
+  display: flex;
+  justify-content: center;
+  position: static;
+  margin: 70px;
+}
+.main-btn a button {
+  cursor: pointer;
+  width: 430px;
+  height: 75px;
+  background: #075bb1 0% 0% no-repeat padding-box;
+  border: 1px solid #075bb1;
+  border-radius: 54px;
+  opacity: 1;
+}
+.main-btn a button p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+main .aviso-priv {
+  width: 600px;
+  height: 282px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5f5d60 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+main .aviso-priv p {
+  width: 600px;
+  height: 282px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 19px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+footer div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 15px;
+  position: static;
+}
+footer div ul li img {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+.footer-link {
+  display: flex;
+  justify-content: center;
+  width: 290px;
+  height: 37px;
+}
+.footer-link a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #111212;
+  opacity: 1;
+}
+@media screen and (max-width: 480px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+  }
+  header img {
+    width: 250px;
+    height: 70px;
+    margin: 10px;
+    position: static;
+  }
+  main img {
+    width: 400px;
+    height: 90px;
+    margin: 40px 40px 50px 40px;
+    position: static;
+  }
+  .main-ayudanos p {
+    width: 400px;
+    height: 70px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #111212;
+    opacity: 1;
+  }
+  .main-btn a button {
+    cursor: pointer;
+    width: 330px;
+    height: 65px;
+    background: #075bb1 0% 0% no-repeat padding-box;
+    border: 1px solid #075bb1;
+    border-radius: 54px;
+    opacity: 1;
+  }
+  .main-btn a button p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  main .aviso-priv {
+    width: 480px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5f5d60 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  main .aviso-priv p {
+    width: 480px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  footer div ul li img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+  }
+  .footer-link a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #111212;
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 360px) {
+  body {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+  }
+  main img {
+    width: 300px;
+    height: 65px;
+    margin: 40px 40px 50px 40px;
+    position: static;
+  }
+  .main-ayudanos p {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #111212;
+    opacity: 1;
+  }
+  .main-btn a button {
+    cursor: pointer;
+    width: 300px;
+    height: 55px;
+    background: #075bb1 0% 0% no-repeat padding-box;
+    border: 1px solid #075bb1;
+    border-radius: 54px;
+    opacity: 1;
+  }
+  .main-btn a button p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  main .aviso-priv {
+    min-width: 360px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5f5d60 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  main .aviso-priv p {
+    min-width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  footer div ul li img {
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+  }
+  .footer-link a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #111212;
+    opacity: 1;
+  }
+}
